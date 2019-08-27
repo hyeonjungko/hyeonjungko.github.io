@@ -1,0 +1,132 @@
+@font-face {
+    font-family: CharlevoixPro-Regular;
+    src:url("../fonts/CharlevoixPro-Regular.otf");
+}
+
+@font-face {
+    font-family: CharlevoixPro-Bold;
+    src:url("../fonts/CharlevoixPro-Bold.otf");
+}
+
+::selection {
+    background: #36ad7e;
+  }
+
+body {
+    background-color: #F5EFE1;
+    color: #2B7D5C;
+    font-family: CharlevoixPro-Regular;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.navi {
+    position: fixed;
+    top:16%;
+    left: 95%;
+    width: -webkit-fill-available;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.navi .link {
+    margin-right: 1.5%;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.main-content {
+    margin: 4% 5% 15% 5%;
+    text-align: left;
+}
+
+.section-header {
+    font-family: CharlevoixPro-Bold;
+    font-size: 600%;
+}
+
+.projects {
+    margin-bottom: 15%;
+}
+
+.block {
+    margin-bottom: 5%;
+}
+
+.project-header {
+    font-size: 130%;
+    letter-spacing: 2px;
+    /**text-decoration: underline;*/
+}
+
+.project-descrip {
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.footer {
+    display:inline-block;
+    width: -webkit-fill-available;
+}
+
+.link-dots {
+    margin-right: 6%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    transform: scale(.45);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dots-wrapper {
+    display:inline-block;
+    width: 50%;
+}
+
+.screen-mode {
+    float: right;
+}
+
+#container {
+    margin: 75px 110px;
+}
+
+#header-name {
+    text-transform: uppercase;
+    font-family: CharlevoixPro-Bold;
+}
+
+#animation-break {
+    height: 450px;
+}
+
+#introduction {
+    margin-bottom: 15%;
+    width: 75%;
+    font-size: 196%;
+}
+
+#screen-mode-text {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#github-dot {
+    background-color: #001F3F;
+}
+
+#resume-dot {
+    background-color: #EA4B89;
+}
+
+#linkedin-dot {
+    background-color: #0057FF;
+}
